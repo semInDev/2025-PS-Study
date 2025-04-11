@@ -31,8 +31,8 @@
 
 **GitHub 레포지토리 사용**
 
-- 각자 `주차/이름/BOJ_문제번호.java`  또는 `주차/이름/Programers_문제이름.java`  형태로 업로드
-    - 예시 : 1주차/huiyeong/BOJ_123.java
+- 각자 `주차/이름/BOJ_문제이름.java`  또는 `주차/이름/Programers_문제이름.java`  형태로 업로드
+    - 예시 : 1주차/huiyeong/BOJ_그래프.java
 - PR 생성 시 아래 내용 포함:
     - 간단한 접근 방식
     - 시간/공간 복잡도
