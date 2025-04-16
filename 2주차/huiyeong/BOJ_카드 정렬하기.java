@@ -8,6 +8,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
         int answer = 0;
+        
         Queue<Integer> queue = new PriorityQueue<>();
         for (int i = 0; i < N; i++) {
             queue.add(Integer.parseInt(br.readLine()));
