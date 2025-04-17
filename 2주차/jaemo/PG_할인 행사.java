@@ -4,10 +4,6 @@ class Solution {
     private static final int MEMBER_AUTH_DAY = 10;
     
     public int solution(String[] want, int[] number, String[] discount) {
-        Integer[] boxedNumber = Arrays.stream(number).boxed().toArray(Integer[]::new);
-        Arrays.sort(boxedNumber, Collections.reverseOrder());
-        int maxNumber = boxedNumber[0];
-        
         int answer = 0;
         for (int i=0;i<=discount.length-MEMBER_AUTH_DAY;i++) {
             int start = i;
